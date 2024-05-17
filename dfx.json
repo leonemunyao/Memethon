@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "memethon_backend": {
+      "candid": "src/memethon_backend/memethon_backend.did",
+      "package": "memethon_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
